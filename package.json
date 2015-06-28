@@ -1,0 +1,43 @@
+{
+  "name": "cache-store",
+  "version": "1.0.0",
+  "description": "数据缓存，支持 React 组件之间数据共享。",
+  "main": "index.js",
+  "scripts": {
+    "test": "check-style -e coverage && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiu8310/react-data-store.git"
+  },
+  "keywords": [
+    "react",
+    "data",
+    "store",
+    "communicate",
+    "share",
+    "share-data",
+    "component",
+    "local",
+    "cache"
+  ],
+  "author": "Zhonglei Qiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiu8310/react-data-store/issues"
+  },
+  "homepage": "https://github.com/qiu8310/react-data-store#readme",
+  "devDependencies": {
+    "browserify-istanbul": "^0.2.1",
+    "isparta": "^3.0.3",
+    "karma": "^0.12.37",
+    "karma-browserify": "^4.2.1",
+    "karma-coverage": "^0.4.2",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-spec-reporter": "0.0.19",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "should": "^7.0.1"
+  }
+}
